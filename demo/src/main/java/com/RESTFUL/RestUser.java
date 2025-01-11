@@ -6,6 +6,8 @@ public class RestUser {
 	private String name;
 	private String email;
 	private String age;
+	private String phone;
+	
 	public String getId() {
 		return id;
 	}
@@ -30,5 +32,10 @@ public class RestUser {
 	public void setAge(String age) {
 		this.age = age;
 	}
-
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getPhone() {
+		return phone;
+	}
 }
